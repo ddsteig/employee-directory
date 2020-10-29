@@ -5,8 +5,8 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-<div className="App">
-      <header className="App-header">
+<div>
+      <header>
         <Router>
           <Route exact path="/" component={Home} />
         </Router>
