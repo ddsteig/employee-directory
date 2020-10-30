@@ -6,11 +6,17 @@ import Home from "./pages/Home";
 function App() {
   return (
 <div>
-      <header>
-        <Router>
+      <header className="App-header">
+      <h1>Employee Directory</h1>
+        {/* <Router>
+          <Route exact path="/" component={Home} />
+        </Router> */}
+      </header>
+      <body>
+      <Router>
           <Route exact path="/" component={Home} />
         </Router>
-      </header>
+      </body>
     </div>
   );
 }
