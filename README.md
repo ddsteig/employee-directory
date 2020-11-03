@@ -87,9 +87,9 @@ Email: dannydsteiger@gmail.com
 
 Github: [https://github.com/ddsteig](https://github.com/ddsteig)
 
-## React Information  <a name="react"></a>
+# React Information  <a name="react"></a>
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
