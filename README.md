@@ -4,7 +4,7 @@
 
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-  ![Employee Directory](https://github.com/ddsteig/employee-directory/blob/main/imgs/directory.jpg "Directory")
+  ![Employee Directory](https://github.com/ddsteig/employee-directory/blob/main/employeedir/imgs/directory.jpg "Directory")
 
   ## Table of Contents
   - [Description](#description)
