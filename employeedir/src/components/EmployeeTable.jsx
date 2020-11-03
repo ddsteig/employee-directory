@@ -1,8 +1,9 @@
 import React from "react";
 
+// Function to enable sorting of table data
 const useSortableData = (employees, config = null) => {
   const [sortConfig, setSortConfig] = React.useState(config);
-
+  // useMemo used to memorize values
   const sortedEmployees = React.useMemo(() => {
     let sortableEmployees = [...employees];
     if (sortConfig !== null) {
@@ -18,7 +19,7 @@ const useSortableData = (employees, config = null) => {
     }
     return sortableEmployees;
   }, [employees, sortConfig]);
-
+  // Sort by ascending and descending off the key
   const requestSort = (key) => {
     let direction = 'ascending';
     if (
@@ -34,6 +35,8 @@ const useSortableData = (employees, config = null) => {
   return { employees: sortedEmployees, requestSort, sortConfig };
 };
 
+// Employee table to return data to page
+// Contains sort, and filter functionality
 const EmployeeTable = (props) => {
   const { employees, requestSort, sortConfig } = useSortableData(props.allemployees);
   const getClassNamesFor = (name) => {
@@ -42,12 +45,13 @@ const EmployeeTable = (props) => {
     }
     return sortConfig.key === name ? sortConfig.direction : undefined;
   };
-
+  // State used for filter
   const [searchTerm, setSearchTerm] = React.useState("");
   const handleChange = event => {
     setSearchTerm(event.target.value);
   };
-
+  // Table display
+  // onchange events for Name, Company, and Age for sorting
   return (
 
     <div>
@@ -97,7 +101,7 @@ const EmployeeTable = (props) => {
           </tr>
         </thead>
         <tbody>
-
+          {/* Filters by first name and then maps the data */}
           {employees.filter((person => person.first.toLowerCase().includes(searchTerm.toLocaleLowerCase()))).map(newperson => (
             <tr key={newperson.id}>
               <td><img src={newperson.picture} className="card-img-top" alt="..." /></td>
@@ -116,4 +120,3 @@ const EmployeeTable = (props) => {
 };
 
 export default EmployeeTable;
-
