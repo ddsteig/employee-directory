@@ -8,15 +8,13 @@ function App() {
 <div>
       <header className="App-header">
       <h1>Employee Directory</h1>
-        {/* <Router>
-          <Route exact path="/" component={Home} />
-        </Router> */}
+ 
       </header>
-      <body>
+ 
       <Router>
-          <Route exact path="/" component={Home} />
+          <Route path="/" component={Home} />
         </Router>
-      </body>
+
     </div>
   );
 }
