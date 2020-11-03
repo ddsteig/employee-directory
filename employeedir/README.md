@@ -1,94 +1,3 @@
-# Employee Directory	
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)	
-
-![Employee Directory](https://github.com/ddsteig/employee-directory/blob/main/employeedir/imgs/directory.jpg "Directory")	
-
-## Table of Contents	
-- [Description](#description)	
-- [Installation Instructions](#install)	
-- [Usage Information](#usage)	
-- [Resources](#resources)	
-- [Test](#test)	
-- [License](#license)	
-- [Questions](#questions)	
-- [React Information](#react)	
-
-<hr>	
-
-## Description <a name="description"></a>	
-
-### User Story
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
-
-### Business Context
-
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
-
-<hr>
-
-## Installation Instructions <a name="install"></a>	
-
-* npm install - To install necessary dependencies	
-
-<hr>	
-
-## Usage <a name="usage"></a>
-
-Given a table of random users, when the user loads the page, a table of employees should render. 	The page will reload if you make edits.\
-
-You will also see any lint errors in the console.
-
-The user should be able to:
-
-* Sort the table by at least one category
-
-* Filter the users by at least one property.
-
-<hr>	
-
-## Resources <a name="resources"></a>	
-
-[Random Profile Photos](https://randomuser.me/photos)
-
-[JSON Generator ](https://next.json-generator.com/NylpCyQuK)
-
-[Sortable Tables With React ](https://www.smashingmagazine.com/2020/03/sortable-tables-react/)
-
-[React Filter ](https://upmostly.com/tutorials/react-filter-filtering-arrays-in-react-with-examples)
-
-[Simple Search Form in React](https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg)
-
-<hr>	
-
-## Test Information <a name="test"></a>	
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\	
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.	
-
-<hr>	
-
-## License <a name="license"></a>	
-
-Please refer to the following license for guidelines, usage details, and information.	
-
-License: MIT	
-
-<hr>	
-
-## Questions <a name="questions"></a>	
-
-For any questions regarding this material, contact me at the following:	
-
-Email: dannydsteiger@gmail.com	
-
-Github: [https://github.com/ddsteig](https://github.com/ddsteig)
-
-## React Information  <a name="react"></a>
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -104,6 +13,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
