@@ -6,7 +6,10 @@
 
 ## Table of Contents	
 - [Description](#description)	
+- [Installation Instructions](#install)	
+- [Usage Information](#usage)	
 - [Resources](#resources)	
+- [Test](#test)	
 - [License](#license)	
 - [Questions](#questions)	
 - [React Information](#react)	
