@@ -1,4 +1,6 @@
-# Employee Directory	
+# Employee Directory
+
+### [Check out the directory here.](https://ddsteig.github.io/employee-directory/)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)	
 
