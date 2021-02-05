@@ -6,7 +6,7 @@ import EmployeeTable from "../components/EmployeeTable"
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App" style={{margin: "2rem"}} >
 
       <EmployeeTable allemployees={EmployeeList} />
 
